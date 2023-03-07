@@ -1,0 +1,78 @@
+@media only screen and (min-width:64em) {
+    #header .mobile-menu-btn{
+        display: none;
+    }
+}
+
+
+/* tablet */
+@media only screen and (min-width:46.25em) and (max-width:63.9375em) {
+    #header .mobile-menu-btn{
+        display: none;
+    }    
+
+    }
+
+
+    /* mobile */
+    @media only screen and (max-width:46.1875em) {
+        #header{
+            overflow: hidden;
+        }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: white;
+        padding: 5px 30px;
+    }
+
+    #header #search-icon{
+        display: none;
+    }
+    
+
+    #content .member-list{
+        display: block;
+    }
+
+    .member-list .avatar-member{
+        width: 60%;
+    }
+
+    #tour .places-list{
+        display: block;
+    }
+    .s-width-full,
+    .s-col-full{
+        width: 100% !important ;
+    }
+
+    .block-display{
+        display: block;
+    }
+    
+    #contact .contact-list{
+        display: block;
+    }
+
+    #contact .input-contact{
+        padding: 14px;
+    }
+    
+}
